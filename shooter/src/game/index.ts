@@ -202,6 +202,8 @@ async function playGame(p1: WebSocket, p2: WebSocket) {
         getLogger().error(`Played ${gamesPlayed} games`);
     }
 
+    //p1.removeAllListeners();
+    //p2.removeAllListeners();
     getWriter().count("games-played");
 }
 
