@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "build": "tsc",
-    "watch": "ts-watch"
+    "watch": "ts-watch",
+    "perf": "tsc && node dist/src/server.js --logPath /tmp/testing"
   },
   "keywords": [],
   "author": "",
